@@ -11,6 +11,4 @@ spec:
     accountReplicationType: LRS
     accountTier: Standard
     location: Australia East
-    resourceGroupNameSelector:
-      matchLabels:
-        testing.upbound.io/example-name: rg-ajhdev-build
+    resourceGroupName: rg-ajhdev-build
