@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/hacs11/crossplane
     targetRevision: HEAD
-    path: infrastructure
+    path: infrastructure/storage
   destination:
     namespace: default
     server: https://kubernetes.default.svc
